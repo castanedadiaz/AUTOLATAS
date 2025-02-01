@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #FBF5DD;
+  }
+
+  .container {
+    width: 100%;
+    margin-top: 230px;
+  }
+
+
+  .yanone-kaffeesatz-lyrics {
+    font-family: "Yanone Kaffeesatz", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  
+  .my-float{
+    margin-top:16px;
+  }
+  
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: auto;
+    height: 200px;
+    font-family: "Yanone Kaffeesatz", serif;
+    color: #fff;
+    text-align: center;
+    background-image: url("img/cars/back002.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 54%;
+    background-position-x : 10% ;;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  
+  header h1 {
+    font-size: 7rem;
+    margin: 0;
+    text-shadow: 6px 3px 4px #4d3a10, 6px 8px 2px #000000d5 ;
+    height: 134px;
+  }
+
+  header p {
+    padding-top: 0;
+    font-size: 2rem;
+    font-weight: bold;
+	  margin: 0;
+    text-shadow: 2px 1px 0px #4d3a10, 2px 1px 0px #000000d5 ;
+}
+
+  header h1:hover {
+    cursor: pointer;
+    text-shadow: 3px 5px 5px #fed77d, 7px 6px 0px #0000007d ;
+}
+
+  
+  main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .carousel {
+    margin-top: 15px;
+    padding: 5px;
+    width: 800px;
+    height: 117px;	
+    display: flex;
+    align-items: center;
+    z-index: -1;
+    margin-bottom: 60px;
+}
+
+.carousel .slick-slide {
+  height: 120px;
+  display: flex !important; /* Activa Flexbox en cada slide */
+  align-items: center; /* Centra verticalmente los logos */
+  justify-content: center; /* Centra horizontalmente los logos */
+}
+
+.carousel img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* Centra el contenido */
+  align-items: center;
+  width: 110px; /* Limita el ancho máximo */
+  height: auto; /* Mantiene la proporción */
+}
+
+  section {
+    text-align: center;
+    font-family: "Yanone Kaffeesatz", serif;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+  section h1 {
+    font-size: 2.5rem;
+	  margin: 0;
+    color: #16404D;
+    text-shadow: 1px 1px 0px #A6CDC6;
+  }
+
+  #primero {
+    text-align: center;
+    font-size: 1.2rem;
+	  margin: 0;
+    color: #16404D;
+    text-shadow: 1px 1px 0px #A6CDC6;
+  }
+
+  section p {
+    font-size: 1.8rem;
+    margin: 0;
+    color: #16404D;
+    text-shadow: 1px 1px 0px #A6CDC6;
+  }
+
+  .inicio img {
+    width: 400px;
+    height: auto;
+}
+
+#nosotros img {
+    width: 300px;
+	  height: auto;
+}
+  
+  #slideshow {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    header h1 {
+      width: 100%;
+      max-width: 100%;
+      font-size: 2.2rem;
+      height: 80px;
+      margin: 0 auto;
+      padding: 0;
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+      color: #FFF6DA;
+	  text-shadow: 1px 1px 0px #F4D793, 4px 2px 0px #000000d5 ;
+    }
+    
+    header p {
+    font-size: 1.1rem;
+	  margin: 0;
+	  color: #FFF6DA;	
+    }
+
+    footer {
+      width: 100%;
+        font-size: 0.8rem;
+    }
+  }
