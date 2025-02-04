@@ -52,7 +52,7 @@ body {
     background-image: url("img/cars/back002.jpg");
     background-repeat: no-repeat;
     background-position-y: 54%;
-    background-position-x : 10% ;;
+    background-position-x : 10% ;
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
@@ -83,6 +83,14 @@ body {
     padding: 2rem;
     max-width: 800px;
     margin: 0 auto;
+  }
+
+  #carsline {
+    width: 320px;
+  }
+
+  #carsline2 {
+    width: 320px;
   }
 
   .carousel {
@@ -173,55 +181,66 @@ body {
     height: auto;
 }
 
-#nosotros img {
-    width: 300px;
-	  height: auto;
-}
-  
-  #slideshow {
-    position: relative;
-    height: 300px;
-    overflow: hidden;
-  }
-  
-  .slide {
-    margin: 0 auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-  }
-  
-  .slide.active {
-    opacity: 1;
-  }
-  
   footer {
     text-align: center;
   }
   
   @media only screen and (max-width: 768px) {
+
+    body {
+      margin: 0 auto;
+    }
+
+    header {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+      background:url("img/backphone01.png");
+      background-size: 100%;
+      background-position-y: 20%;
+      background-position-x: 10%;
+      border-bottom-right-radius: 40px;
+      border-bottom-left-radius: 18px;
+    }
+
+
+
     header h1 {
-      width: 100%;
+      width: 99%;
       max-width: 100%;
-      font-size: 2.2rem;
+      font-size: 2.7rem;
+      font-weight: bold;
       height: 80px;
       margin: 0 auto;
       padding: 0;
       text-align: center;
       line-height: 100px;
       font-weight: bold;
-      color: #FFF6DA;
-	  text-shadow: 1px 1px 0px #F4D793, 4px 2px 0px #000000d5 ;
+      color: #ffffff;
+	    text-shadow: 3px 4px 3px #000000, 4px 2px 0px #000000d5 ;
     }
     
     header p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 	  margin: 0;
-	  color: #FFF6DA;	
+    font-weight: bold;
+
+	  color: #ffffff;
+	    text-shadow: 2px 3px 3px #000000, 3px 1px 3px #000000d5 ;
+    
+    }
+
+    .carousel {
+      margin: 0 auto;
+      width: 330px;
+    }
+
+    #carsline {
+      width: 260px;
+    }
+
+    #carsline2 {
+      width: 200px;
     }
 
     footer {
