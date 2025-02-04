@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #FBF5DD;
+    background: #ffffff;
   }
 
   .container {
@@ -103,6 +103,7 @@ body {
   justify-content: center; /* Centra horizontalmente los logos */
 }
 
+
 .carousel img {
   display: flex;
   align-items: center;
@@ -111,6 +112,28 @@ body {
   align-items: center;
   width: 110px; /* Limita el ancho máximo */
   height: auto; /* Mantiene la proporción */
+}
+
+  .carousel2 {
+    margin-top: 15px;
+    padding: 5px;
+    height: 240px;	
+    display: flex;
+    align-items: center;
+    z-index: -1;
+    margin-bottom: 60px;
+}
+
+.carousel2 .slick-slide {
+  height: 220px;
+  display: flex !important; /* Activa Flexbox en cada slide */
+  align-items: center; /* Centra verticalmente los logos */
+  justify-content: center; /* Centra horizontalmente los logos */
+}
+
+.carousel2 .slick-slide img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del slide */
+    height: auto;
 }
 
   section {
@@ -162,6 +185,7 @@ body {
   }
   
   .slide {
+    margin: 0 auto;
     position: absolute;
     top: 0;
     left: 0;
